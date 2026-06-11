@@ -131,4 +131,3 @@ def sublatlon_kete(aster, observer, epoch, rot, vector_mode = False):
     t = Table([epoch, obs_latitude, obs_longitude, sun_latitude, sun_longitude], \
               names = ['jd', 'Sub-observer latitude', 'Sub-observer longitude', 'Sub-solar latitude', 'Sub-solar longitude'])
     return(t)
-    return(new_sun, new_obs)
